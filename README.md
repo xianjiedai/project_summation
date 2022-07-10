@@ -6,6 +6,7 @@
       e.g CIFAR 10, MNIST etc.
       
 - Prepared Dataset
+
 Train vs Test: split dataset into training dataset and testing dataset
 
 Different Data Format: CSV, pickle file, png, and etc

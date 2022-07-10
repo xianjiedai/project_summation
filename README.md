@@ -7,9 +7,9 @@
       
 - Prepared Dataset
 
-Train vs Test: split dataset into training dataset and testing dataset
+      Train vs Test: split dataset into training dataset and testing dataset
 
-Different Data Format: CSV, pickle file, png, and etc
+      Different Data Format: CSV, pickle file, png, and etc
         
 ### 1.2 Data Augmentation
 - Rotation

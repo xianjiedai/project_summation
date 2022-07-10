@@ -1,6 +1,6 @@
 # Framework Summary #
 ## 1. DATA PREPROCESSING ##
-  ### 1.1 Read Data ###
+### 1.1 Read Data ###
     - torchvision.dataset Supported Dataset
       e.g CIFAR 10, MNIST etc.
     1.1.2 Prepared Dataset

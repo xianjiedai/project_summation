@@ -7,9 +7,9 @@
       
 - Prepared Dataset
 
-      Train vs Test: split dataset into training dataset and testing dataset
+Train vs Test: split dataset into training dataset and testing dataset
 
-      Different Data Format: CSV, pickle file, png, and etc
+Different Data Format: CSV, pickle file, png, and etc
         
 ### 1.2 Data Augmentation
 - Rotation
@@ -33,10 +33,10 @@
 - Second-order Optimizer
       K-FAC   
 ### 2.3 Scheduler
-    dynamic learning rate
+dynamic learning rate
 ### 2.4 Weights Initialization
-    Xavier, He, sparse initialization
-  ### 2.5 Training Details
-    epoch, learning rate, and etc
+Xavier, He, sparse initialization
+### 2.5 Training Details
+epoch, learning rate, and etc
 
 ## 3. TEST & GENERATE SAMPLES ##

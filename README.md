@@ -2,11 +2,12 @@
 ## 1. DATA PREPROCESSING ##
 ### 1.1 Read Data ###
 - torchvision.dataset Supported Dataset
+
       e.g CIFAR 10, MNIST etc.
-1.1.2 Prepared Dataset
-      1.1.2.1 Train vs Test
+- Prepared Dataset
+      - Train vs Test
         Split dataset into training dataset and testing dataset
-      1.1.2.2 Different Data Format
+      - Different Data Format
         CSV, pickle file, png, and etc
         
   ### 1.2 Data Augmentation

@@ -1,4 +1,4 @@
-##1. DATA PREPROCESSING##
+## 1. DATA PREPROCESSING ##
   1.1 Read Data
     1.1.1 torchvision.dataset Supported Dataset
       e.g CIFAR 10, MNIST etc.
@@ -12,7 +12,7 @@
     1.2.2 Random Crop
     1.2.3 Random Noise
     
-##2. TRAIN & VALIDATION##
+## 2. TRAIN & VALIDATION ##
   2.1 Loss
     2.1.1 BCE Loss
     2.1.2 CrossEntropy Loss
@@ -35,4 +35,4 @@
   2.5 Training Details
     epoch, learning rate, and etc
 
-##3. TEST & GENERATE SAMPLES##
+## 3. TEST & GENERATE SAMPLES ##

@@ -4,11 +4,8 @@ import torch
 from torch.autograd import Variable
 from PIL import Image
 from tqdm import tqdm
-import numpy as np
-import matplotlib.image as mpimg
-import re
-from model.seg_net import Segnet
-from dataset_SegNet import input_transform, colorize_mask
+from networks.seg_net import Segnet
+from data_preprocessing.data_from_prepared_dataset import input_transform, colorize_mask
 
 #select only img files and filter other files, such as txt or csv, out
 def is_image_file(filename):
@@ -78,6 +75,6 @@ for i in range(1, 51):
     image_filename = 'data_segnet/prediction/test_' + str(i) + '.png'
     print(image_filename)
     image_filenames.append(image_filename)
-masks_to_submission(submission_filename, *image_filenames)
+#masks_to_submission(submission_filename, *image_filenames)
 
 
